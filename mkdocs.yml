@@ -1,0 +1,14 @@
+site_name: NLP Notes
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - 1. Introduction to NLP: 01-intro-to-nlp.md
