@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#1-introduction-to-nlp" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -283,6 +288,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Introduction to NLP
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -300,6 +325,141 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-nlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is NLP?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#need-for-nlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Need for NLP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-exactly-is-natural-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What exactly is Natural Language?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-world-applications-of-nlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Real World Applications of NLP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-nlp-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common NLP Tasks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#approaches-to-nlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Approaches to NLP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Approaches to NLP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-heuristic-methods-rule-based" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Heuristic Methods (Rule-Based)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-machine-learning-based-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Machine Learning Based Methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-deep-learning-based-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Deep Learning Based Methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenges-in-nlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Challenges in NLP
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -322,172 +482,198 @@
 
 
 
-  <h1>1. Introduction to NLP</h1>
-
-<p># 1. Introduction to NLP</p>
-<p>## What is NLP?</p>
+<h1 id="1-introduction-to-nlp">1. Introduction to NLP</h1>
+<h2 id="what-is-nlp">What is NLP?</h2>
 <p>Natural Language Processing (NLP) is a subfield of Artificial Intelligence (AI) that focuses on enabling computers to understand, interpret, generate, and manipulate human language (text and speech) in a way that is meaningful and useful.</p>
 <p>It sits at the intersection of:</p>
-<p>- **Linguistics** – structure and meaning of language</p>
-<p>- **Computer Science** – algorithms and computation</p>
-<p>- **Machine Learning / AI** – learning patterns from data</p>
-<p>**[Diagram placeholder: Venn diagram showing NLP at intersection of Linguistics, Computer Science, and AI]**</p>
-<p>---</p>
-<p>## Need for NLP</p>
-<p>- Massive amount of unstructured text/speech data is generated daily (emails, social media, reviews, articles, chats).</p>
-<p>- Humans cannot manually process this data at scale.</p>
-<p>- Businesses need to extract insights, automate communication, and improve decision-making from language data.</p>
-<p>- Enables human-computer interaction using natural language instead of rigid commands/code.</p>
-<p>---</p>
-<p>## What exactly is Natural Language?</p>
-<p>- Natural language refers to languages that evolved naturally through human use (e.g., English, Hindi, Spanish) — as opposed to **constructed/formal languages** (e.g., programming languages, mathematical notation).</p>
-<p>- Characteristics of natural language:</p>
-<p>&#x20; - **Ambiguous** (same word/sentence can have multiple meanings)</p>
-<p>&#x20; - **Evolving** (new words, slang, usage patterns emerge)</p>
-<p>&#x20; - **Context-dependent** (meaning changes based on context)</p>
-<p>&#x20; - **Redundant/flexible in structure** (same meaning expressed in many ways)</p>
-<p>---</p>
-<p>## Real World Applications of NLP</p>
-<p>| Application | Description |</p>
-<p>|---|---|</p>
-<p>| **Contextual Advertisements** | Ads served based on the meaning/context of content being viewed (e.g., Google AdSense) |</p>
-<p>| **Email Clients** | Spam filtering, smart reply, priority inbox (e.g., Gmail) |</p>
-<p>| **Social Media** | Trend detection, content moderation, sentiment tracking |</p>
-<p>| **Search Engines** | Understanding query intent, ranking relevant documents (e.g., Google Search) |</p>
-<p>| **Chatbots** | Automated conversational agents for customer support, assistants (e.g., Siri, Alexa) |</p>
-<p>---</p>
-<p>## Common NLP Tasks</p>
-<p>1. **Text/Document Classification** – Assigning predefined categories to text (e.g., spam vs. not spam)</p>
-<p>2. **Sentiment Analysis** – Determining emotional tone (positive/negative/neutral)</p>
-<p>3. **Information Retrieval** – Finding relevant documents/information from a large corpus (e.g., search engines)</p>
-<p>4. **Parts of Speech (POS) Tagging** – Labeling words with grammatical categories (noun, verb, adjective, etc.)</p>
-<p>5. **Language Detection \&amp; Machine Translation** – Identifying language of text; translating text between languages</p>
-<p>6. **Conversational Agents** – Chatbots and voice assistants</p>
-<p>7. **Knowledge Graph \&amp; QA Systems** – Structuring knowledge as entities/relationships; answering questions from it</p>
-<p>8. **Text Summarization** – Condensing long text into a short, meaningful summary</p>
-<p>9. **Topic Modelling** – Discovering abstract topics within a collection of documents</p>
-<p>10. **Text Generation** – Producing coherent, human-like text</p>
-<p>11. **Spell Checking \&amp; Grammatical Error Correction** – Detecting/correcting spelling and grammar issues</p>
-<p>12. **Text Parsing** – Analyzing grammatical structure of sentences</p>
-<p>13. **Speech to Text** – Converting spoken language into written text</p>
-<p>---</p>
-<p>## Approaches to NLP</p>
-<p>### 1. Heuristic Methods (Rule-Based)</p>
+<ul>
+<li><strong>Linguistics</strong> – structure and meaning of language</li>
+<li><strong>Computer Science</strong> – algorithms and computation</li>
+<li><strong>Machine Learning / AI</strong> – learning patterns from data</li>
+</ul>
+<p><strong>[Diagram placeholder: Venn diagram showing NLP at intersection of Linguistics, Computer Science, and AI]</strong></p>
+<hr />
+<h2 id="need-for-nlp">Need for NLP</h2>
+<ul>
+<li>Massive amount of unstructured text/speech data is generated daily (emails, social media, reviews, articles, chats).</li>
+<li>Humans cannot manually process this data at scale.</li>
+<li>Businesses need to extract insights, automate communication, and improve decision-making from language data.</li>
+<li>Enables human-computer interaction using natural language instead of rigid commands/code.</li>
+</ul>
+<hr />
+<h2 id="what-exactly-is-natural-language">What exactly is Natural Language?</h2>
+<ul>
+<li>Natural language refers to languages that evolved naturally through human use (e.g., English, Hindi, Spanish) — as opposed to <strong>constructed/formal languages</strong> (e.g., programming languages, mathematical notation).</li>
+<li>
+<p>Characteristics of natural language:</p>
+</li>
+<li>
+<p><strong>Ambiguous</strong> (same word/sentence can have multiple meanings)</p>
+</li>
+<li><strong>Evolving</strong> (new words, slang, usage patterns emerge)</li>
+<li><strong>Context-dependent</strong> (meaning changes based on context)</li>
+<li><strong>Redundant/flexible in structure</strong> (same meaning expressed in many ways)</li>
+</ul>
+<hr />
+<h2 id="real-world-applications-of-nlp">Real World Applications of NLP</h2>
+<table>
+<thead>
+<tr>
+<th>Application</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Contextual Advertisements</strong></td>
+<td>Ads served based on the meaning/context of content being viewed (e.g., Google AdSense)</td>
+</tr>
+<tr>
+<td><strong>Email Clients</strong></td>
+<td>Spam filtering, smart reply, priority inbox (e.g., Gmail)</td>
+</tr>
+<tr>
+<td><strong>Social Media</strong></td>
+<td>Trend detection, content moderation, sentiment tracking</td>
+</tr>
+<tr>
+<td><strong>Search Engines</strong></td>
+<td>Understanding query intent, ranking relevant documents (e.g., Google Search)</td>
+</tr>
+<tr>
+<td><strong>Chatbots</strong></td>
+<td>Automated conversational agents for customer support, assistants (e.g., Siri, Alexa)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="common-nlp-tasks">Common NLP Tasks</h2>
+<ol>
+<li><strong>Text/Document Classification</strong> – Assigning predefined categories to text (e.g., spam vs. not spam)</li>
+<li><strong>Sentiment Analysis</strong> – Determining emotional tone (positive/negative/neutral)</li>
+<li><strong>Information Retrieval</strong> – Finding relevant documents/information from a large corpus (e.g., search engines)</li>
+<li><strong>Parts of Speech (POS) Tagging</strong> – Labeling words with grammatical categories (noun, verb, adjective, etc.)</li>
+<li><strong>Language Detection &amp; Machine Translation</strong> – Identifying language of text; translating text between languages</li>
+<li><strong>Conversational Agents</strong> – Chatbots and voice assistants</li>
+<li><strong>Knowledge Graph &amp; QA Systems</strong> – Structuring knowledge as entities/relationships; answering questions from it</li>
+<li><strong>Text Summarization</strong> – Condensing long text into a short, meaningful summary</li>
+<li><strong>Topic Modelling</strong> – Discovering abstract topics within a collection of documents</li>
+<li><strong>Text Generation</strong> – Producing coherent, human-like text</li>
+<li><strong>Spell Checking &amp; Grammatical Error Correction</strong> – Detecting/correcting spelling and grammar issues</li>
+<li><strong>Text Parsing</strong> – Analyzing grammatical structure of sentences</li>
+<li><strong>Speech to Text</strong> – Converting spoken language into written text</li>
+</ol>
+<hr />
+<h2 id="approaches-to-nlp">Approaches to NLP</h2>
+<h3 id="1-heuristic-methods-rule-based">1. Heuristic Methods (Rule-Based)</h3>
 <p>Based on hand-crafted rules and lexical resources.</p>
-<p>- **Regular Expressions (Regex)** – Pattern matching in text</p>
-<p>- **WordNet** – Lexical database of English; groups words into sets of synonyms (synsets) with semantic relationships</p>
-<p>- **Open Mind Common Sense** – Crowdsourced knowledge base of everyday common-sense facts</p>
-<p>**Example: Regex for email extraction**</p>
-<pre><code class="language-python">
-import re
-
-
+<ul>
+<li><strong>Regular Expressions (Regex)</strong> – Pattern matching in text</li>
+<li><strong>WordNet</strong> – Lexical database of English; groups words into sets of synonyms (synsets) with semantic relationships</li>
+<li><strong>Open Mind Common Sense</strong> – Crowdsourced knowledge base of everyday common-sense facts</li>
+</ul>
+<p><strong>Example: Regex for email extraction</strong></p>
+<pre><code class="language-python">import re
 
 text = &quot;Contact us at support@example.com or sales@company.org&quot;
 
-pattern = r'\[\\w\\.-]+@\[\\w\\.-]+\\.\\w+'
+pattern = r'[\w.-]+@[\w.-]+\.\w+'
 
 emails = re.findall(pattern, text)
 
 print(emails)
-
-\# Output: \['support@example.com', 'sales@company.org']
-
+# Output: ['support@example.com', 'sales@company.org']
 </code></pre>
-<p>---</p>
-<p>### 2. Machine Learning Based Methods</p>
+<hr />
+<h3 id="2-machine-learning-based-methods">2. Machine Learning Based Methods</h3>
 <p>Learn patterns from labeled/unlabeled data instead of hand-crafted rules.</p>
-<p>**Advantages:**</p>
-<p>- Generalizes better than fixed rules</p>
-<p>- Handles variability and unseen patterns</p>
-<p>- Scales with more data</p>
-<p>**Common Algorithms:**</p>
-<p>- **Naive Bayes** – Probabilistic classifier based on Bayes' theorem, assumes feature independence</p>
-<p>- **Logistic Regression** – Linear model for classification tasks</p>
-<p>- **SVM (Support Vector Machine)** – Finds optimal hyperplane to separate classes</p>
-<p>- **LDA (Latent Dirichlet Allocation)** – Probabilistic model for topic modelling</p>
-<p>- **Hidden Markov Models (HMM)** – Sequence modelling (e.g., POS tagging) using states and transition probabilities</p>
-<p>**Example: Naive Bayes text classification**</p>
-<pre><code class="language-python">
-from sklearn.feature\_extraction.text import CountVectorizer
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>Generalizes better than fixed rules</li>
+<li>Handles variability and unseen patterns</li>
+<li>Scales with more data</li>
+</ul>
+<p><strong>Common Algorithms:</strong></p>
+<ul>
+<li><strong>Naive Bayes</strong> – Probabilistic classifier based on Bayes' theorem, assumes feature independence</li>
+<li><strong>Logistic Regression</strong> – Linear model for classification tasks</li>
+<li><strong>SVM (Support Vector Machine)</strong> – Finds optimal hyperplane to separate classes</li>
+<li><strong>LDA (Latent Dirichlet Allocation)</strong> – Probabilistic model for topic modelling</li>
+<li><strong>Hidden Markov Models (HMM)</strong> – Sequence modelling (e.g., POS tagging) using states and transition probabilities</li>
+</ul>
+<p><strong>Example: Naive Bayes text classification</strong></p>
+<pre><code class="language-python">from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
 
-from sklearn.naive\_bayes import MultinomialNB
+texts = [
+    &quot;I love this movie&quot;,
+    &quot;This film was terrible&quot;,
+    &quot;Amazing acting&quot;,
+    &quot;Worst movie ever&quot;
+]
 
-
-
-texts = \[&quot;I love this movie&quot;, &quot;This film was terrible&quot;, &quot;Amazing acting&quot;, &quot;Worst movie ever&quot;]
-
-labels = \[1, 0, 1, 0]  # 1 = positive, 0 = negative
-
-
+labels = [1, 0, 1, 0]  # 1 = positive, 0 = negative
 
 vectorizer = CountVectorizer()
-
-X = vectorizer.fit\_transform(texts)
-
-
+X = vectorizer.fit_transform(texts)
 
 model = MultinomialNB()
-
 model.fit(X, labels)
 
+test = vectorizer.transform([&quot;I really loved it&quot;])
 
-
-test = vectorizer.transform(\[&quot;I really loved it&quot;])
-
-print(model.predict(test))  # Output: \[1]
-
+print(model.predict(test))
+# Output: [1]
 </code></pre>
-<p>---</p>
-<p>### 3. Deep Learning Based Methods</p>
+<hr />
+<h3 id="3-deep-learning-based-methods">3. Deep Learning Based Methods</h3>
 <p>Use neural networks to automatically learn feature representations from raw text.</p>
-<p>**Advantages:**</p>
-<p>- No manual feature engineering</p>
-<p>- Captures complex, long-range patterns and context</p>
-<p>- State-of-the-art performance on most NLP tasks</p>
-<p>**Common Architectures:**</p>
-<p>- **RNN (Recurrent Neural Network)** – Processes sequential data, maintains hidden state across time steps</p>
-<p>- **LSTM (Long Short-Term Memory)** – RNN variant that handles long-term dependencies, solves vanishing gradient issue</p>
-<p>- **GRU (Gated Recurrent Unit) / CNN** – GRU is a simplified LSTM; CNNs used for capturing local patterns (n-grams) in text</p>
-<p>- **Transformers** – Attention-based architecture, processes sequences in parallel (basis of BERT, GPT, etc.)</p>
-<p>- **Autoencoders** – Learn compressed representations of text via encoder-decoder structure</p>
-<p>**Example: Simple LSTM for text classification (Keras)**</p>
-<pre><code class="language-python">
-from tensorflow.keras.models import Sequential
-
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>No manual feature engineering</li>
+<li>Captures complex, long-range patterns and context</li>
+<li>State-of-the-art performance on most NLP tasks</li>
+</ul>
+<p><strong>Common Architectures:</strong></p>
+<ul>
+<li><strong>RNN (Recurrent Neural Network)</strong> – Processes sequential data, maintains hidden state across time steps</li>
+<li><strong>LSTM (Long Short-Term Memory)</strong> – RNN variant that handles long-term dependencies and helps address the vanishing gradient problem</li>
+<li><strong>GRU (Gated Recurrent Unit) / CNN</strong> – GRU is a simplified LSTM; CNNs are used for capturing local patterns (n-grams) in text</li>
+<li><strong>Transformers</strong> – Attention-based architecture that processes sequences in parallel (basis of BERT, GPT, etc.)</li>
+<li><strong>Autoencoders</strong> – Learn compressed representations of text via encoder-decoder structure</li>
+</ul>
+<p><strong>Example: Simple LSTM for text classification (Keras)</strong></p>
+<pre><code class="language-python">from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, LSTM, Dense
 
-
-
-model = Sequential(\[
-
-&amp;#x20;   Embedding(input\_dim=5000, output\_dim=64, input\_length=100),
-
-&amp;#x20;   LSTM(64),
-
-&amp;#x20;   Dense(1, activation='sigmoid')
-
+model = Sequential([
+    Embedding(input_dim=5000, output_dim=64, input_length=100),
+    LSTM(64),
+    Dense(1, activation='sigmoid')
 ])
 
-
-
-model.compile(optimizer='adam', loss='binary\_crossentropy', metrics=\['accuracy'])
+model.compile(
+    optimizer='adam',
+    loss='binary_crossentropy',
+    metrics=['accuracy']
+)
 
 model.summary()
-
 </code></pre>
-<p>---</p>
-<p>## Challenges in NLP</p>
-<p>- **Ambiguity** – Lexical (multiple meanings of a word), syntactic (multiple parse structures), and semantic ambiguity</p>
-<p>- **Context Dependency** – Same phrase can mean different things in different contexts</p>
-<p>- **Sarcasm \&amp; Irony** – Hard to detect literal vs. intended meaning</p>
-<p>- **Multilingualism** – Handling multiple languages, dialects, code-switching</p>
-<p>- **Lack of Labeled Data** – Especially for low-resource languages/domains</p>
-<p>- **Coreference Resolution** – Identifying what pronouns/references point to</p>
-<p>- **Domain Adaptation** – Models trained on one domain may not generalize to another</p>
-<p>- **Evolving Language** – New slang, abbreviations, and usage patterns</p>
-<p>- **Computational Cost** – Deep learning models require significant resources</p>
-<p>- **Bias in Data** – Models can inherit/amplify societal biases present in training data</p>
+<hr />
+<h2 id="challenges-in-nlp">Challenges in NLP</h2>
+<ul>
+<li><strong>Ambiguity</strong> – Lexical (multiple meanings of a word), syntactic (multiple parse structures), and semantic ambiguity</li>
+<li><strong>Context Dependency</strong> – Same phrase can mean different things in different contexts</li>
+<li><strong>Sarcasm &amp; Irony</strong> – Hard to detect literal vs. intended meaning</li>
+<li><strong>Multilingualism</strong> – Handling multiple languages, dialects, and code-switching</li>
+<li><strong>Lack of Labeled Data</strong> – Especially for low-resource languages/domains</li>
+<li><strong>Coreference Resolution</strong> – Identifying what pronouns/references point to</li>
+<li><strong>Domain Adaptation</strong> – Models trained on one domain may not generalize to another</li>
+<li><strong>Evolving Language</strong> – New slang, abbreviations, and usage patterns</li>
+<li><strong>Computational Cost</strong> – Deep learning models require significant resources</li>
+<li><strong>Bias in Data</strong> – Models can inherit/amplify societal biases present in training data</li>
+</ul>
 
 
 
